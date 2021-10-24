@@ -1,5 +1,6 @@
 import java.io.Console;
 import models.Encrypt;
+import models.Decrypt;
 
 import java.io.BufferedReader;
 import java.io.IOException;
