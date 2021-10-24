@@ -37,6 +37,8 @@ public class App{
                 Decrypt newDecryption = new Decrypt(text,shift);
                 System.out.println("Your decrypted message is: "+ newDecryption.decryptMessage(text, shift));
 
+            }else if(choice.equals("3")){
+                running = false;
             }
         }
     }
