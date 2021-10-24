@@ -1,6 +1,6 @@
 ## Caesar Cipher Website
 
-This is a site that enables users to encrypt or decrypt words by shifting the characters by a specific key6 24/10/2021.
+This is a site that enables users to encrypt or decrypt words by shifting the characters by a specific key, 24/10/2021.
 
 By Khajira Christopher
 
@@ -41,7 +41,9 @@ This project uses Java
 
 ## Dependencies
 Gradle: distributionUrl=https\://services.gradle.org/distributions/gradle-5.2.1-all.zip
+
 testImplementation 'org.junit.jupiter:junit-jupiter-api:5.3.1'
+
 testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.3.1'
 
 ## Support and contact details
