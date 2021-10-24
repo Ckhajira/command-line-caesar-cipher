@@ -13,5 +13,9 @@ class EncryptTest {
     public void runEncrypt_instantiate(){
         assertTrue(myTest instanceof Encrypt);
     }
-    
+
+    @Test
+    public void runEncrypt_checkForText(){
+        assertEquals("Encryption",myTest.getText());
+    }
 }
