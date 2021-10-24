@@ -2,16 +2,12 @@ import java.io.Console;
 import models.Encrypt;
 import models.Decrypt;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-
 public class App{
     public static void main(String[] args){
 
-        boolean running = true;
+        boolean executing = true;
 
-        while(running){
+        while(executing){
             System.out.println("This is a direct line to the President and all communication is top secret! ");
             System.out.println("Would you like to encrypt a message or decrypt a message you have received?");
             System.out.println("To encrypt a message, enter option 1. To decrypt a message, enter option 2. To " +
@@ -38,7 +34,8 @@ public class App{
                 System.out.println("Your decrypted message is: "+ newDecryption.decryptMessage(text, shift));
 
             }else if(choice.equals("3")){
-                running = false;
+                System.out.println("Thank you for using our super secure system!");
+                executing = false;
             }
         }
     }
