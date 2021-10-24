@@ -18,4 +18,8 @@ class EncryptTest {
     public void runEncrypt_checkForText(){
         assertEquals("Encryption",myTest.getText());
     }
+    @Test
+    public void runEncrypt_checkForShift(){
+        assertEquals(2,myTest.getShift());
+    }
 }
