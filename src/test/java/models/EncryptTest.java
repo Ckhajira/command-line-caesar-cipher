@@ -6,11 +6,12 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class EncryptTest {
 
-    @Test
-    void getText() {
-    }
+    private Encrypt myTest = new Encrypt("Encryption", 2);
 
     @Test
-    void getShift() {
+
+    public void runEncrypt_instantiate(){
+        assertTrue(myTest instanceof Encrypt);
     }
+    
 }
