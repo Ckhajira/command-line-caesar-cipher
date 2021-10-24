@@ -11,6 +11,9 @@ class DecryptTest {
         assertTrue(myTest instanceof Decrypt);
     }
 
-    
+    @Test
+    public void runDecrypt_checkForShift() {
+        assertEquals(5,myTest.getShift());
+    }
 
 }
