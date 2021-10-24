@@ -12,6 +12,10 @@ class DecryptTest {
     }
 
     @Test
+    public void runDecrypt_checkForText() {
+        assertEquals("Encryption", myTest.getText());
+    }
+    @Test
     public void runDecrypt_checkForShift() {
         assertEquals(5,myTest.getShift());
     }
