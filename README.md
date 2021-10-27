@@ -14,6 +14,20 @@ If the user chooses option 2, to decrypt, he is prompted to provide the word(s) 
 is also prompted to enter the shift key which was used to encrypt. The user is then given the decrypted word. 
 The user can then choose to exit the program by selecting option 3.
 
+## Behaviour Driven Development
+1.  Displays three options for the user to choose
+   - INPUT: "User's option"
+   - OUTPUT: "Displays prompt to enter message for encryption"
+2.  Displays prompt to enter message to be encrypted
+   - INPUT: "User's message"
+   - OUTPUT: "Displays prompt to enter the shift key"
+3.  Displays prompt to enter shift key
+   - INPUT: "Shift Key"
+   - OUTPUT: "Displays the encrypted message"
+4.  Displays three options for the user to choose
+   - INPUT: "If user's option is 3"
+   - OUTPUT: "Program Terminates" 
+
 ## Features Summary
 
 Below is a brief summary of the features that the website provides:
@@ -22,6 +36,7 @@ Below is a brief summary of the features that the website provides:
 - User is required to enter the word(s) to be encrypted/decrypted
 - User is required to enter the shift key which determines how the words are encrypted/decrypted
 - The program outputs the encrypted/decrypted words
+
 
 
 ## Setup/Installation Requirements
